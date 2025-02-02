@@ -1,0 +1,24 @@
+# Ignore Bytecode
+__pycache__/
+*.py[cod]
+
+# Ignore Virtual Environments
+venv/
+.env/
+*.egg-info/
+pip-wheel-metadata/
+
+# Ignore Logs and Databases
+*.log
+*.sqlite3
+
+# Ignore IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+
+# Ignore Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Ignore Media Folder
+/media/
