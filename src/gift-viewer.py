@@ -47,7 +47,7 @@ try:
   # Infinitely loop through the gif
   cur_frame = 0
   while True:
-    matrix.SwapOnVSync(canvases[cur_frame], framerate_fraction=10)
+    matrix.SwapOnVSync(canvases[cur_frame])
     if cur_frame == num_frames - 1:
       cur_frame = 0
     else:
